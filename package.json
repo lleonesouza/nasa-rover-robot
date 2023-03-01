@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "start": "node ./build/index.js",
+    "build": "yarn tsc --project tsconfig.json"
   },
   "devDependencies": {
     "@jest/globals": "^29.4.3",
