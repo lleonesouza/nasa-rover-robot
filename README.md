@@ -66,7 +66,14 @@ The solution is built around 2 classes (Mars and Rover) and a main file (index.t
     - Root test folder located in `./test/*`.
 
 
+## START WITH DOCKER
 
+- build:
+    ```
+    docker build -t nasa-rover-robot .
+    ```
 
-[GitHub link](https://github.com/lleonesouza/nasa-rover-robot).
-
+- run:
+    ```
+    docker run nasa-rover-robot
+    ```
